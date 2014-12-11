@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module", "Module\Module.csproj", "{2C4475B1-2085-4135-B982-717C8AAE9ED3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Submodule1", "SubModule1\Submodule1\Submodule1.csproj", "{EFE859ED-96D9-45D4-8524-4691CA26D573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Submodule2", "SubModule2\Submodule2\Submodule2.csproj", "{515732A9-72DA-4F12-920F-1E50381C9DF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2C4475B1-2085-4135-B982-717C8AAE9ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2C4475B1-2085-4135-B982-717C8AAE9ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2C4475B1-2085-4135-B982-717C8AAE9ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2C4475B1-2085-4135-B982-717C8AAE9ED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE859ED-96D9-45D4-8524-4691CA26D573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE859ED-96D9-45D4-8524-4691CA26D573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE859ED-96D9-45D4-8524-4691CA26D573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE859ED-96D9-45D4-8524-4691CA26D573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{515732A9-72DA-4F12-920F-1E50381C9DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{515732A9-72DA-4F12-920F-1E50381C9DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{515732A9-72DA-4F12-920F-1E50381C9DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{515732A9-72DA-4F12-920F-1E50381C9DF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
